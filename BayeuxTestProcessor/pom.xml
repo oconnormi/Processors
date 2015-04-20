@@ -6,31 +6,17 @@
 
     <parent>
       <groupId>org.codice.testify</groupId>
-      <artifactId>testify-parent</artifactId>
-      <version>0.0.1</version>
+      <artifactId>processors</artifactId>
+      <version>0.0.3-SNAPSHOT</version>
+      <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>org.codice.testify.processors.bayeux</groupId>
     <artifactId>bayeux-test-processor</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <name>Testify Bayeux Test Processor</name>
     <description>Testify Test Processor service for use with bayeux protocol</description>
-
-    <prerequisites>
-        <maven>3</maven>
-    </prerequisites>
-
-    <scm>
-            <connection>scm:git:https://github.com/testify/BayeuxTestProcessor.git</connection>
-        <developerConnection>scm:git:https://github.com/testify/BayeuxTestProcessor.git</developerConnection>
-        <url>https://github.com/testify/BayeuxTestProcessor.git</url>
-    </scm>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <dependencies>
         <dependency>

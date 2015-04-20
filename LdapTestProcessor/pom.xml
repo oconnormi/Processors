@@ -19,24 +19,17 @@
 
   <parent>
     <groupId>org.codice.testify</groupId>
-    <artifactId>testify-parent</artifactId>
-    <version>0.0.1</version>
+    <artifactId>processors</artifactId>
+    <version>0.0.3-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
  
   <groupId>org.codice.testify.processors</groupId>
   <artifactId>ldaptestprocessor</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <name>LDAP Test Processor</name>
   <description>Testify Processor Service for adding ldif files to an LDAP server</description>
-
-  <scm>
-    <connection>scm:git:https://github.com/testify/LdapTestProcessor.git</connection>
-    <developerConnection>scm:git:https://github.com/testify/LdapTestProcessor.git</developerConnection>
-    <url>https://github.com/testify/LdapTestProcessor.git</url>
-    <tag>HEAD</tag>
-  </scm>
 
   <dependencies>
       <dependency>
