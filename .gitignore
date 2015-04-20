@@ -93,6 +93,5 @@ release.properties
 Session.vim
 .netrwhist
 *~
-=======
 *.classpath
 *.project
